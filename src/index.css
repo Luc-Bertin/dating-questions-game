@@ -1,0 +1,44 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #19118e, #646cff);
+}
+
+.card-container {
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: center;
+  padding: 20% 10%;
+  border-radius: 40px;
+  background-color: #0000007b;
+  box-shadow: 20px 20px 20px 20px #06071838;
+}
+
+.card-container p {
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+button {
+  background-color: #ef481af1;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #535bf2;
+}
